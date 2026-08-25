@@ -11,6 +11,7 @@
 📄 &nbsp;Check out my [Portfolio](https://rafaelsilvabarros.dev.br) for more about my work.
 
 ### 🚀 &nbsp;Featured Projects
+<img src="./assets/projects.svg" alt="Featured projects: FitMeta and Docgen" width="100%"/>
 
 **[FitMeta](https://fitmeta.com.br)** — workout management web app with user auth, protected routes and DB-backed CRUD.\
 &nbsp;&nbsp;React · TypeScript · Supabase · React Query &nbsp;·&nbsp; _pair project_
