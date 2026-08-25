@@ -8,7 +8,7 @@
 🌎 &nbsp;Native Portuguese speaker, fluent in English.\
 🤝 &nbsp;Open to Front-end / Full-stack internship opportunities.\
 ✉️ &nbsp;Reach me at rafaelbarros0511445@gmail.com\
-📄 &nbsp;Check out my [Portfolio](https://SEU-DOMINIO-AQUI) for more about my work.
+📄 &nbsp;Check out my [Portfolio](https://rafaelsilvabarros.dev.br) for more about my work.
 
 ### 🚀 &nbsp;Featured Projects
 
@@ -38,17 +38,10 @@
 ![Vercel](https://img.shields.io/badge/-Vercel-141416?style=flat&logo=vercel&logoColor=white)&nbsp;
 ![VS Code](https://img.shields.io/badge/-VS%20Code-141416?style=flat&logo=visual-studio-code&logoColor=007ACC)
 
-### ⚙️ &nbsp;GitHub Analytics
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Rafael-S-Barros&show_icons=true&count_private=true&include_all_commits=true&title_color=2AB8D4&icon_color=2AB8D4&text_color=F2F4F5&bg_color=141416&border_color=1F3A44"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rafael-S-Barros&layout=compact&langs_count=8&title_color=2AB8D4&text_color=F2F4F5&bg_color=141416&border_color=1F3A44"/>
-</p>
-
 ### 🤝🏻 &nbsp;Connect with Me
 
 <p align="center">
-<a href="https://SEU-DOMINIO-AQUI"><img src="https://img.shields.io/badge/-Portfolio-141416?style=flat&logo=Google-Chrome&logoColor=2AB8D4"/></a>
-<a href="https://linkedin.com/in/rafael-barros-67a24b3b0"><img src="https://img.shields.io/badge/-Rafael%20Barros-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
+<a href="https://rafaelsilvabarros.dev.br"><img src="https://raw.githubusercontent.com/Rafael-S-Barros/Rafael-S-Barros/main/assets/logo_R.png" width="18" align="center"/> Portfolio</a>
+<a href="https://linkedin.com/in/rafael-barros-67a24b3b0"><img src="https://raw.githubusercontent.com/Rafael-S-Barros/Rafael-S-Barros/main/assets/linkedin.png" width="18" align="center"/> Rafael Barros</a>
 <a href="mailto:rafaelbarros0511445@gmail.com"><img src="https://img.shields.io/badge/-rafaelbarros0511445@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 </p>
