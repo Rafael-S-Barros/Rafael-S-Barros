@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="300" viewBox="0 0 860 300" role="img" aria-label="Featured projects: FitMeta and Docgen">
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1c21"/>
+      <stop offset="1" stop-color="#161619"/>
+    </linearGradient>
+    <radialGradient id="glow-cyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2AB8D4" stop-opacity="0.30"/>
+      <stop offset="70%" stop-color="#2AB8D4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-indigo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2350A8" stop-opacity="0.42"/>
+      <stop offset="70%" stop-color="#2350A8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0 H0 V26" fill="none" stroke="#2AB8D4" stroke-width="0.5" opacity="0.05"/>
+    </pattern>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.4"/>
+    </filter>
+    <clipPath id="clip1"><rect x="30" y="60" width="385" height="222" rx="12"/></clipPath>
+    <clipPath id="clip2"><rect x="445" y="60" width="385" height="222" rx="12"/></clipPath>
+  </defs>
+
+  <!-- container -->
+  <rect x="0.5" y="0.5" width="859" height="299" rx="14" fill="#141416" stroke="#26262b"/>
+
+  <!-- header -->
+  <circle cx="42" cy="31" r="4" fill="#2AB8D4">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="54" y="35" font-family="ui-monospace,Menlo,monospace" font-size="12" letter-spacing="3" fill="#9aa0a6">FEATURED PROJECTS</text>
+  <text x="830" y="35" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#585e64">github.com/Rafael-S-Barros</text>
+
+  <!-- ============ CARD 1 · FitMeta ============ -->
+  <rect x="30" y="60" width="385" height="222" rx="12" fill="url(#surface)"/>
+  <g clip-path="url(#clip1)">
+    <rect x="30" y="60" width="385" height="222" fill="url(#grid)"/>
+    <circle cx="78" cy="96" r="180" fill="url(#glow-cyan)">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <rect x="30.5" y="60.5" width="384" height="221" rx="12" fill="none" stroke="#2c2c32"/>
+  <!-- comet border -->
+  <rect x="30.5" y="60.5" width="384" height="221" rx="12" fill="none" stroke="#2AB8D4" stroke-width="2.4" stroke-linecap="round" pathLength="100" stroke-dasharray="9 91" opacity="0.85" filter="url(#soft)">
+    <animate attributeName="stroke-dashoffset" from="0" to="-100" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="30.5" y="60.5" width="384" height="221" rx="12" fill="none" stroke="#8fe6f5" stroke-width="1" stroke-linecap="round" pathLength="100" stroke-dasharray="5 95">
+    <animate attributeName="stroke-dashoffset" from="0" to="-100" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- index + accent line -->
+  <text x="54" y="104" font-family="ui-monospace,Menlo,monospace" font-size="13" font-weight="700" fill="#2AB8D4">01</text>
+  <line x1="74" y1="99" x2="104" y2="99" stroke="#2AB8D4" stroke-width="1.5"/>
+  <!-- pair badge -->
+  <rect x="300" y="88" width="92" height="20" rx="10" fill="#2AB8D4" fill-opacity="0.08" stroke="#2AB8D4" stroke-opacity="0.28"/>
+  <circle cx="313" cy="98" r="2.6" fill="none" stroke="#2AB8D4" stroke-width="1"/>
+  <circle cx="319" cy="98" r="2.6" fill="none" stroke="#2AB8D4" stroke-width="1"/>
+  <text x="327" y="101.5" font-family="ui-monospace,Menlo,monospace" font-size="9" letter-spacing="0.3" fill="#2AB8D4">pair project</text>
+  <!-- name -->
+  <text x="54" y="141" font-family="ui-sans-serif,Segoe UI,Roboto,sans-serif" font-size="20" font-weight="700" fill="#F2F4F5">FitMeta</text>
+  <!-- description -->
+  <text x="54" y="167" font-family="ui-sans-serif,Segoe UI,Roboto,sans-serif" font-size="11.5" fill="#9aa0a6">Workout management web app with user</text>
+  <text x="54" y="184" font-family="ui-sans-serif,Segoe UI,Roboto,sans-serif" font-size="11.5" fill="#9aa0a6">auth, protected routes and DB-backed CRUD.</text>
+  <!-- stack -->
+  <text x="54" y="215" font-family="ui-monospace,Menlo,monospace" font-size="10.5" fill="#86b0bd">React · TypeScript · Supabase · React Query</text>
+  <line x1="54" y1="238" x2="391" y2="238" stroke="#2c2c32"/>
+  <text x="54" y="263" font-family="ui-monospace,Menlo,monospace" font-size="11.5" fill="#3FD0E8">↗ fitmeta.com.br</text>
+
+  <!-- ============ CARD 2 · Docgen ============ -->
+  <rect x="445" y="60" width="385" height="222" rx="12" fill="url(#surface)"/>
+  <g clip-path="url(#clip2)">
+    <rect x="445" y="60" width="385" height="222" fill="url(#grid)"/>
+    <circle cx="782" cy="96" r="180" fill="url(#glow-indigo)">
+      <animate attributeName="opacity" values="0.8;1;0.8" dur="6s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <rect x="445.5" y="60.5" width="384" height="221" rx="12" fill="none" stroke="#2c2c32"/>
+  <!-- comet border (indigo) -->
+  <rect x="445.5" y="60.5" width="384" height="221" rx="12" fill="none" stroke="#3f6fd6" stroke-width="2.4" stroke-linecap="round" pathLength="100" stroke-dasharray="9 91" opacity="0.85" filter="url(#soft)">
+    <animate attributeName="stroke-dashoffset" from="-50" to="-150" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="445.5" y="60.5" width="384" height="221" rx="12" fill="none" stroke="#9db8f2" stroke-width="1" stroke-linecap="round" pathLength="100" stroke-dasharray="5 95">
+    <animate attributeName="stroke-dashoffset" from="-50" to="-150" dur="5.5s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="469" y="104" font-family="ui-monospace,Menlo,monospace" font-size="13" font-weight="700" fill="#2AB8D4">02</text>
+  <line x1="489" y1="99" x2="519" y2="99" stroke="#2AB8D4" stroke-width="1.5"/>
+  <rect x="715" y="88" width="92" height="20" rx="10" fill="#2AB8D4" fill-opacity="0.08" stroke="#2AB8D4" stroke-opacity="0.28"/>
+  <circle cx="728" cy="98" r="2.6" fill="none" stroke="#2AB8D4" stroke-width="1"/>
+  <circle cx="734" cy="98" r="2.6" fill="none" stroke="#2AB8D4" stroke-width="1"/>
+  <text x="742" y="101.5" font-family="ui-monospace,Menlo,monospace" font-size="9" letter-spacing="0.3" fill="#2AB8D4">pair project</text>
+  <text x="469" y="141" font-family="ui-sans-serif,Segoe UI,Roboto,sans-serif" font-size="20" font-weight="700" fill="#F2F4F5">Docgen</text>
+  <text x="469" y="167" font-family="ui-sans-serif,Segoe UI,Roboto,sans-serif" font-size="11.5" fill="#9aa0a6">Structured technical docs generated from</text>
+  <text x="469" y="184" font-family="ui-sans-serif,Segoe UI,Roboto,sans-serif" font-size="11.5" fill="#9aa0a6">source in 10+ languages via a local LLM.</text>
+  <text x="469" y="215" font-family="ui-monospace,Menlo,monospace" font-size="10.5" fill="#86b0bd">React · TypeScript · Ollama · Vite</text>
+  <line x1="469" y1="238" x2="806" y2="238" stroke="#2c2c32"/>
+  <text x="469" y="263" font-family="ui-monospace,Menlo,monospace" font-size="11.5" fill="#3FD0E8">↗ documentation-creator</text>
+</svg>
