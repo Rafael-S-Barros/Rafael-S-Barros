@@ -40,8 +40,7 @@
 
 ### 🤝🏻 &nbsp;Connect with Me
 
-<p align="center">
-<a href="https://rafaelsilvabarros.dev.br"><img src="https://raw.githubusercontent.com/Rafael-S-Barros/Rafael-S-Barros/main/assets/logo_R.png" width="18" align="center"/> Portfolio</a>
-<a href="https://linkedin.com/in/rafael-barros-67a24b3b0"><img src="https://raw.githubusercontent.com/Rafael-S-Barros/Rafael-S-Barros/main/assets/linkedin.png" width="18" align="center"/> Rafael Barros</a>
-<a href="mailto:rafaelbarros0511445@gmail.com"><img src="https://img.shields.io/badge/-rafaelbarros0511445@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
-</p>
+<p align="center"> 
+<a href="https://rafaelsilvabarros.dev.br"><img src="https://img.shields.io/badge/-Portfolio-141416?style=flat&logo=Google-Chrome&logoColor=2AB8D4"/></a>
+<a href="https://linkedin.com/in/rafael-barros-67a24b3b0"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a> 
+<a href="mailto:rafaelbarros0511445@gmail.com"><img src="https://img.shields.io/badge/-rafaelbarros0511445@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white"/></a> </p>
